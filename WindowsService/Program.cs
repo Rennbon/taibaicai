@@ -18,7 +18,7 @@ namespace WindowsService
             ServicesToRun = new ServiceBase[] 
             { 
                 new Service1() 
-            };
+            };      
             ServiceBase.Run(ServicesToRun);
         }
     }
